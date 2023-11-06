@@ -32,9 +32,9 @@
   }
 
   .sinopse > img {
-    width: 250px;
-    height: 250px;
-    margin: 0;
+    width: 300px;
+    height: 300px;
+
   }
   .sinopse {
     width: 50%;
@@ -48,12 +48,10 @@
     text-align: center;
   }
   .sinopseText > p {
-    width: 250px;
-    height: 100vh;
-    font-size: 14px;
-    display: flex;
+    width: 385px;
+    font-size: 20px;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 16px;
    
     
   }
