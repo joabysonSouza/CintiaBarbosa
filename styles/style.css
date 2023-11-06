@@ -15,7 +15,7 @@ html, body {
     rgba(56, 95, 143, 1) 1%,
     rgba(62, 3, 224, 1) 83%
   );
-  overflow: hidden;
+  overflow-x: hidden;
 }
 header {
   display: flex;
