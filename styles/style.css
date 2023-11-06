@@ -8,13 +8,14 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   background: rgb(56, 95, 143);
   background: linear-gradient(
     90deg,
     rgba(56, 95, 143, 1) 1%,
     rgba(62, 3, 224, 1) 83%
   );
+  overflow: hidden;
 }
 header {
   display: flex;
