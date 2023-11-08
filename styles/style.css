@@ -9,6 +9,7 @@
 }
 
 html, body {
+
   overflow-x: hidden;
   background: rgb(56, 95, 143);
   background: linear-gradient(
@@ -71,7 +72,7 @@ section > div.compras {
 
 .sinopse {
   width: 100vw;
-  height: 100vh;
+  height: 100vh; 
   display: flex;
 }
 
@@ -108,7 +109,6 @@ section > div.compras {
 }
 
 .sinopseText > p {
-  font-size: 20px;
   margin: 20px;
 }
 
