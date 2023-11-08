@@ -63,6 +63,7 @@
   header > h1 {
     font-size: 50px;
     margin-inline: 12px;
+    text-align: center;
   }
   header > img {
     width: 85px;
@@ -123,6 +124,9 @@
   .bioText>h1{
     text-align: left;
     margin: 24px;
+  }
+  .bioText>h2{
+    text-align: center;
   }
   .bioText > p {
     margin-inline: 24px;
