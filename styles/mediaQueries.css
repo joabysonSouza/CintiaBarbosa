@@ -1,10 +1,6 @@
 
 @media(max-width:280px){
 
-  .compras > img {
-    max-width: 250px;
-    height: 250px;
-  }
   section.bio > img {
     width: 220px;
     height: 220px;
