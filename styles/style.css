@@ -24,11 +24,12 @@ header {
   justify-content: center;
   align-items: center;
   animation: blurAnimate 2s alternate;
+  margin: 10px;
 }
 
 header > h1 {
-  font-size: 100px;
-  font-family: "Great Vibes", cursive;
+font-size: 60px;
+ font-family: 'Cinzel Decorative', serif;;
   color: var(--text);
  
 }
@@ -38,19 +39,16 @@ header > img {
   border-radius: 50%;
 }
 .livros {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
   gap: 30px;
+
 }
 
-section > div.compras {
-  display: flex;
-  flex-direction: column;
-}
+
 .compras > img {
   width: 100%;
-  height: 100%;
   border-radius: 8px;
 }
 
@@ -72,7 +70,7 @@ section > div.compras {
 
 .sinopse {
   width: 100vw;
-  height: 1000px; 
+  /* height: 1000px;  */
   display: flex;
 }
 
